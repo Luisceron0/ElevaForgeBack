@@ -9,6 +9,12 @@ dist/
 .env.local
 .env.*.local
 
+# Setup scripts (not needed in production)
+fetch_frontend.mjs
+setup_supabase.mjs
+test_connection.mjs
+clone_frontend.sh
+
 # Logs
 *.log
 npm-debug.log*
